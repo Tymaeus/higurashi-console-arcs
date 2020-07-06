@@ -1183,13 +1183,13 @@ void main()
 //r足に力が入らず、私は腰が抜けた格好で後じさる。——と、その時ついた手のひらに、ぬるり、と生温かい感触。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "足に力が入らず、私は腰が抜けた格好で後じさる。——と、その時ついた手のひらに、ぬるり、と生温かい感触。",
-			NULL, "I had no strength left in my legs, my stomach shrank back. ...And just then, I felt a warmth oozing from within the palm of my hand.", Line_Normal);
+			NULL, "My knees shake as I step back, barely able to keep standing. ...And just then, I felt a warmth oozing from my palm.", Line_Normal);
 	ClearMessage();
 
 //r思わず手を上げて目の前にかざすと、……私の手は肘にかけてどす黒く濁った血に染まって、真っ赤になっていた……っ！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "思わず手を上げて目の前にかざすと、……私の手は肘にかけてどす黒く濁った血に染まって、真っ赤になっていた……っ！！",
-			NULL, "When I suddenly raised my hand up and held it in front of my eyes...... from my hand to my elbow, it was stained with dark, murky, red blood......!!", Line_Normal);
+			NULL, "Instinctively, I raised my hand up and held it in front of my eyes...... and saw everything down to my elbow stained with dark, murky, red blood......!!", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310101145.「ぃぃいぃやァァッッ！！　あぁぁあぁぁぁあぁッッッ！！！」
@@ -1204,7 +1204,7 @@ void main()
 //r叫び、わめき、泣き、怯え、目を剥いて、私は懸命に立ち上がろうと壁に手をかけて上体を持ち上げる。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "叫び、わめき、泣き、怯え、目を剥いて、私は懸命に立ち上がろうと壁に手をかけて上体を持ち上げる。",
-			NULL, "Screaming, shouting, crying, panicking, opening my eyes wide, I placed my hand against the wall and pushed hard to lift my upper body.", Line_Normal);
+			NULL, "I scream, shout, cry, panick ma and widen my eyes as I desperately place my hand against the wall and lift my upper body up in an attempt to stand.", Line_Normal);
 	ClearMessage();
 
 //rが、ずるり、とぬめった腕のせいで滑って倒れて、肩から落ちた先に、…おとーさんの顔が、あった…！！
@@ -1223,7 +1223,7 @@ void main()
 //r息を飲んで、響きが焼ききれたような叫びが、喉の奥からほとばしる。もはや声も出ず、…私は四つんばいに這って、このリビングの反対側の出口から隣の部屋に転がり込んだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "息を飲んで、響きが焼ききれたような叫びが、喉の奥からほとばしる。もはや声も出ず、…私は四つんばいに這って、このリビングの反対側の出口から隣の部屋に転がり込んだ。",
-			NULL, "A breathtaking, burning scream burst from the back of my throat. When my voice stopped coming out... I crawled on all fours to the other side of the room, and rolled through the exit into the next room.", Line_Normal);
+			NULL, "I gasped, and a burning scream burst from the back of my throat. I couldn't even speak anymore... I crawled on all fours to the other side of the room, and tumbled through the exit into the next room.", Line_Normal);
 	ClearMessage();
 
 //夏美rvS04/36/310101147.「…あぁっ、はぁっ…はぁぁっ…、あ…？」
