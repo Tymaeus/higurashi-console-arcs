@@ -223,7 +223,7 @@ void main()
 //r俺は嫌な予感がして、沙都子の家へと駆け戻る。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺は嫌な予感がして、沙都子の家へと駆け戻る。",
-			NULL, "I had a bad feeling about this, while running back toward Satoko's house.", Line_Normal);
+			NULL, "I got a bad feeling and ran back toward Satoko's house.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 2, 200, FALSE  );
@@ -258,7 +258,7 @@ void main()
 //r俺は羽織っていたシャツを脱ぐと、右手の拳にぐるぐると巻きつける。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺は羽織っていたシャツを脱ぐと、右手の拳にぐるぐると巻きつける。",
-			NULL, "I pulled off my tattered shirt and wound it around my right fist.", Line_Normal);
+			NULL, "I pulled off my shirt and wound it around my right fist.", Line_Normal);
 	ClearMessage();
 
 //r窓ガラスの中心を、渾身の力を込めて叩いた。
@@ -346,7 +346,7 @@ void main()
 //r俺は図らずも不法侵入者となってしまったが、この場合、やむをえないだろう。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺は図らずも不法侵入者となってしまったが、この場合、やむをえないだろう。",
-			NULL, "This was breaking and entering, but at this point it was inevitable.", Line_Normal);
+			NULL, "This was breaking and entering, but at this point we didn't have a choice.", Line_Normal);
 	ClearMessage();
 
 //rすりきれた畳をミシミシと踏みしめながら、居間へと歩いていく。
@@ -382,7 +382,7 @@ void main()
 //r生存本能なのか、第六感なのか、それともただの怯えなのか、俺は怖くてたまらない。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "生存本能なのか、第六感なのか、それともただの怯えなのか、俺は怖くてたまらない。",
-			NULL, "Was it my survival instinct, a sixth sense, or just plain old fear? I couldn't let myself give in to fear.", Line_Normal);
+			NULL, "Whether it was my survival instincts, a sixth sense, or just plain old fear, I was terrified.", Line_Normal);
 	ClearMessage();
 
 	DrawScene("background/ho_r1", 1000 );
@@ -447,7 +447,7 @@ void main()
 			NULL, "\"Satoko always eats Japanese style food in the morning.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s18/05/160500090", 256, TRUE);
 	OutputLine(NULL, "お味噌汁にごはんじゃないと、朝が始まらないのです」",
-			NULL, " The morning can't officially start without rice and miso soup.\"", Line_Normal);
+			NULL, " She can't start her morning without rice and miso soup.\"", Line_Normal);
 	ClearMessage();
 
 //r梨花ちゃんが、ふすまの脇に落ちているベーコンを拾い上げる。
@@ -645,7 +645,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s18/02/160200457", 256, TRUE);
 	OutputLine(NULL, "「これ………………、何かな、圭一くん…………」",
-			NULL, "\"I...... found something, Keiichi-kun......\"", Line_Normal);
+			NULL, "\"What...... What is this, Keiichi-kun......\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene("black", 250 );
@@ -933,7 +933,7 @@ void main()
 //r梨花ちゃんのつぶやきは、騒音と化したレナの悲鳴の中にあって、はっきりと俺の耳に届いた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "梨花ちゃんのつぶやきは、騒音と化したレナの悲鳴の中にあって、はっきりと俺の耳に届いた。",
-			NULL, "Rika-chan's muttering clearly reached Rena's ears, because she turned to look while still screaming.", Line_Normal);
+			NULL, "I clearly heard Rika-chan muttering that amidst Rena screams.", Line_Normal);
 	ClearMessage();
 
 //圭一rvS18/01/160100633_1.「梨花ちゃん、それ……どういうことだよ……？」
@@ -952,7 +952,7 @@ void main()
 //rその表情が、今までに見たことがないくらいに大人びていて……びっくりした。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その表情が、今までに見たことがないくらいに大人びていて……びっくりした。",
-			NULL, "I was surprised... because I've only ever seen adults make that facial expression.", Line_Normal);
+			NULL, "I was surprised... because I'd never seen her look so mature before.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(3, 5, "sprite/ri1_fuman_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -964,7 +964,7 @@ void main()
 			NULL, "\"Keiichi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s18/05/160500093", 256, TRUE);
 	OutputLine(NULL, "これは、決まっていたことなのです」",
-			NULL, " This has already been decided.\"", Line_Normal);
+			NULL, " This had already been decided.\"", Line_Normal);
 	ClearMessage();
 
 //圭一rvS18/01/160100634.「だれが……決めたんだよ？」
@@ -1102,7 +1102,7 @@ void main()
 			NULL, " doesn't exist...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s18/01/160100638", 256, TRUE);
 	OutputLine(NULL, "　祟りのふりをして、誰かが殺したに決まってるじゃないか！",
-			NULL, " Someone decided to kill them under the guise of the curse!", Line_WaitForInput);
+			NULL, " Someone must have killed them under the guise of the curse!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s18/01/160100639", 256, TRUE);
 	OutputLine(NULL, "　……なぁ、レナ？」",
 			NULL, " ...Right, Rena?\"", Line_Normal);
@@ -1231,19 +1231,19 @@ void main()
 			NULL, " I'm absolutely going to kill you!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s18/01/160100644", 256, TRUE);
 	OutputLine(NULL, "　こんなことした連中を、絶対に、殺してやらああぁぁぁぁっっっ！！！」",
-			NULL, " I guarantee I'm going to kill the people responsible for thiiiiiis!!!\"", Line_Normal);
+			NULL, " I swear I'm going to kill the people responsible for thiiiiiis!!!\"", Line_Normal);
 	ClearMessage();
 
 //r……そんな中、梨花ちゃんは。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……そんな中、梨花ちゃんは。",
-			NULL, "...For now, I stood with Rika-chan.", Line_Normal);
+			NULL, "...Amidst all this.", Line_Normal);
 	ClearMessage();
 
 //r怒りに駆られて吠え立てる俺たちと、沙都子たちの亡骸を交互に見つめ、哀しそうにため息をついていた……。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "怒りに駆られて吠え立てる俺たちと、沙都子たちの亡骸を交互に見つめ、哀しそうにため息をついていた……。",
-			NULL, "We fluctuated between anger and sorrow as we stared down at Satoko and Shion's bodies...", Line_Normal);
+			NULL, "Rika looked back and forth between our roars of anger and Shion and Satoko's bodies, and sighed sadly...", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(3, 256, "sunset");
